@@ -7,7 +7,6 @@ class Palette extends Component {
 		const colorBoxes = this.props.colors.map((color) => <ColorBox background={color.color} name={color.name} />);
 		return (
 			<div className='Palette'>
-				<h1>Palette</h1>
 				{/* NavBar goes here */}
 				<div className='Palette-colors'>{colorBoxes}</div>
 				{/* footer */}
