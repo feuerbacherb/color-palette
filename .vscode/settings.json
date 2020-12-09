@@ -1,0 +1,6 @@
+{
+  "prettier.alignObjectProperties": true,
+  "prettier.arrayExpand": true,
+  "prettier.breakProperty": true,
+  "prettier.printWidth": 80
+}
