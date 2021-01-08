@@ -68,7 +68,6 @@ const styles = {
 		background     : 'rgba(255, 255, 255, 0.3)',
 		fontSize       : '1rem',
 		lineHeight     : '30px',
-
 		textTransform  : 'uppercase',
 		border         : 'none',
 		cursor         : 'pointer',
