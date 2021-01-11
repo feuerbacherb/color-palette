@@ -12,13 +12,12 @@ class App extends Component {
 			return palette.id === id;
 		});
 	}
-	constructor(props) {
-		super(props);
-	}
+
 	render() {
-		console.log(generatePalette(seedColors[4]));
+		//console.log(generatePalette(seedColors[4]));
 		return (
 			<Switch>
+				<Route path='/palette/new' render={() => <h1>NEW PALETTE FORM!</h1>} />
 				<Route
 					exact
 					path='/'
